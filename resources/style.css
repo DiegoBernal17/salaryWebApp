@@ -1,0 +1,163 @@
+body {
+  background-color: #eee;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  min-width: 784px;
+}
+
+nav {
+  background-color: #728198;
+  padding: 10px;
+}
+
+nav a {
+  background-color: #5b6d88;
+  padding: 10px;
+  color: white
+}
+nav img {
+  margin: -5px 4px -5px 0;
+}
+
+.box {
+  margin: 20px auto 100px auto;
+  width: 500px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.headerBox {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #2f8fe2;
+  margin: -10px -10px 10px -10px;
+  color: white;
+  border-radius: 8px 8px 0 0;
+  border-bottom: 4px solid #2c75b5;
+}
+
+footer {
+  background-color: #222;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-top: 8px
+}
+
+.footerLink {
+  padding: 4px;
+  color: white;
+}
+
+.loginCenter {
+  background-color: #e6e6e6;
+  width: 350px;
+  margin: 100px auto;
+  padding: 17px;
+  text-align: center;
+  color: #444;
+  box-shadow: 0 0 12px #999;
+  border-radius: 10px;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  display: inline-block;
+  margin: 6px;
+  outline: none;
+  width: 200px;
+}
+
+.dataForm {
+  text-align: center;
+}
+
+.dataForm > input {
+  display: block;
+  background-color: #d0e4df;
+  margin: 6px auto;
+}
+
+.btnGreen {
+  width: 220px;
+  background-color: #a1d454!important;
+  color: #222;
+  cursor: pointer;
+}
+
+.btnGreen:hover {
+  background-color: #93c349;
+}
+
+.error {
+  background-color: #d45757;
+  color: white;
+  text-align: center;
+}
+
+.success {
+  background-color: #45b96e;
+  color: white;
+  text-align: center;
+}
+
+.boxSubMenu {
+  margin: 0 auto;
+  width: 470px;
+  padding: 10px;
+  background-color: #636b7b;
+  text-align: center;
+  border-radius: 0 0 4px 4px;
+}
+
+.itemSubMenu {
+  background-color: #4caf9d;
+  display: inline-block;
+  padding: 6px;
+  margin: -10px 0;
+  border-radius: 4px;
+  color: white;
+  border-bottom: 2px solid #4b8c7c;
+  cursor: pointer;
+}
+
+.itemSelect {
+  background-color: #545454;
+  border-bottom: 2px solid #8c8c8c;
+}
+
+table {
+  margin: 0 auto;
+  background-color: #edeeee;
+  padding: 8px;
+  border: 1px solid #dadada;
+}
+
+thead {
+  background-color: #ff6767;
+  color: white;
+}
+
+tbody tr {
+  outline: 1px solid #d9d9d9;
+}
+
+td {
+  padding: 4px 8px;
+  border-radius: 10px;
+}
+
+td input {
+  width: 96px;
+  margin: 0;
+}
